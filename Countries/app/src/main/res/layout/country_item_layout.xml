@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="@dimen/countryItemHeight"
+    android:orientation="horizontal"
+    android:background="@color/country_item_background"
+    android:clickable="true" android:focusable="true" android:focusableInTouchMode="true">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"
+        android:paddingStart="@dimen/countryItemHorizontalPadding" android:paddingEnd="@dimen/countryItemHorizontalPadding"
+        android:text="@string/name" android:textAppearance="?android:attr/textAppearanceMedium"
+        android:lines="1" android:ellipsize="end" android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/nativeNameTextView"
+        android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"
+        android:paddingStart="@dimen/countryItemHorizontalPadding" android:paddingEnd="@dimen/countryItemHorizontalPadding"
+        android:text="@string/nativeName" android:textAppearance="?android:attr/textAppearanceMedium"
+        android:lines="1" android:ellipsize="end" android:gravity="center_vertical"/>
+</LinearLayout>

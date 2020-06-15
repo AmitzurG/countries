@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Countries</string>
+    <string name="neighbours">Country neighbours</string>
+    <string name="nameSort">Sort by name</string>
+    <string name="areaSort">Sort by area</string>
+    <string name="name">Name</string>
+    <string name="nativeName">Native name</string>
+    <string name="notAvailableRegionalAcronym">Regional acronym N/A</string>
+</resources>
